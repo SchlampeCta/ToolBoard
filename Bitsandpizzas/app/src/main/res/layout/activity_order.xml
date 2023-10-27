@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.bitsandpizzas.bitsandpizzas.OrderActivity">
+ <!--android:background="#FFC107" -->
+
+ <include
+     android:id="@+id/toolbarOrder"
+     layout="@layout/toolbar_layout"/>
+
+
+  <TextView
+      android:id="@+id/text_titulo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="16dp"
+      android:layout_marginTop="40dp"
+      android:text="SOLICITUD DE LABORATORIO" />
+
+
+  <TextView
+      android:id="@+id/textElegirLab"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_margin="20dp"
+      android:layout_marginRight="60dp"
+      android:text="ELEGIR LABORATORIO" />
+
+
+  <Spinner
+      android:id="@+id/salas"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:layout_margin="16dp"
+      android:entries="@array/salas_lab" />
+
+
+  <TextView
+      android:id="@+id/text_hora"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_margin="20dp"
+      android:layout_marginRight="60dp"
+      android:text="SELECCIONAR FECHA DE LA RESERVA" />
+
+  <CalendarView
+      android:id="@+id/calendarView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="#FFFFFF"
+      android:background="#FFFFFF"
+      android:calendarTextColor="@color/white"/>
+
+
+
+  <TextView
+      android:id="@+id/textHoraInicio"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_margin="20dp"
+      android:layout_marginRight="60dp"
+      android:text="SELECCIONAR HORA INICIO" />
+
+  <TimePicker
+      android:id="@+id/timeHoraInicio"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#FFFFFF"/>
+
+  <TextView
+      android:id="@+id/textHoraFin"
+      android:layout_width="wrap_content"
+      android:layout_height="20dp"
+      android:layout_margin="20dp"
+      android:layout_marginRight="60dp"
+      android:text="SELECCIONAR HORA FIN" />
+
+  <TimePicker
+      android:id="@+id/timeHoraFin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#FFFFFF"/>
+
+
+  <Button
+      android:id="@+id/crearReserva"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_marginTop="40dp"
+      android:onClick="onClick"
+      android:text="Generar reserva"
+      android:textColor="#FFFFFF"
+      android:layout_gravity="center_horizontal"
+      android:textSize="22sp"/>
+
+</LinearLayout>

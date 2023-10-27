@@ -1,0 +1,16 @@
+<resources>
+    <string name="Crear_Reserva">Crear Reserva</string>
+    <string name="share_action">Compartir Reserva</string>
+    <string-array name="salas_lab">
+        <item>Circuitos y Electronica</item>
+        <item>Radiocomunicaciones</item>
+        <item>Redes y procesadores</item>
+        <item>Telefonía</item>
+        <item>Robótica</item>
+        <item>Fisica Mecanica</item>
+        <item>Fisica Electricidad y Magnetismo</item>
+        <item>Fisica Ondas y Termodinamica</item>
+        <item>Ciudades Inteligentes</item>
+    </string-array>
+
+</resources>

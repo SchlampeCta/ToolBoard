@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hfad.bitsandpizzas.bitsandpizzas.MainActivity">
+
+  <include
+      android:id="@+id/toolbar"
+      layout="@layout/toolbar_layout"/>
+
+  <TextView
+      android:id="@+id/textTiuloMenu"
+      android:layout_width="100dp"
+      android:layout_height="26dp"
+      android:layout_below="@+id/toolbar"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center"
+      android:layout_marginStart="168dp"
+      android:layout_marginTop="36dp"
+      android:layout_marginEnd="142dp"
+      android:layout_marginBottom="605dp"
+      android:text="MENU" />
+
+  <Button
+      android:id="@+id/btnDisponibilidad"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="54dp"
+      android:layout_marginBottom="523dp"
+      android:text="Disponibilidad"
+      android:textColor="#FFFFFF"
+      android:textSize="22sp" />
+
+  <Button
+      android:id="@+id/btnGenerarReserva"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="52dp"
+      android:layout_marginBottom="445dp"
+      android:text="Generar reserva"
+      android:textColor="#FFFFFF"
+      android:textSize="22sp" />
+
+  <Button
+      android:id="@+id/btnCancelarReserva"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="54dp"
+      android:layout_marginBottom="365dp"
+      android:text="Cancelar reserva"
+      android:textColor="#FFFFFF"
+      android:textSize="22sp" />
+
+  <Button
+      android:id="@+id/btnConsultarReserva"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="50dp"
+      android:layout_marginBottom="273dp"
+      android:text="Consultar reserva"
+      android:textColor="#FFFFFF"
+      android:textSize="22sp" />
+
+  <Button
+      android:id="@+id/btnSalir"
+      android:layout_width="305dp"
+      android:layout_height="60dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="40dp"
+      android:layout_marginBottom="135dp"
+      android:text="Salir"
+      android:textColor="#FFFFFF"
+      android:textSize="22sp" />
+
+</RelativeLayout>
